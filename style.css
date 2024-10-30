@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #1F1517;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+}
+
+span {
+  text-transform: uppercase;
+  font-family: "Epilogue";
+  font-size: 0.875rem;
+  color: #A45A49;
+  margin-bottom: 10px;
+}
+
+.cabecalho span {
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+a {
+  color: #756A67;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+a:hover  {
+  color: #FFF2E7;
+}
+
+.github {
+  color: #FFF2E7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background: #181012;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.hero header h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  margin-bottom: 18px;
+}
+
+hr {
+  background-color: #A45A49;
+  width: 240px;
+  height: 2px;
+  margin-bottom: 18px;
+  border: none;
+}
+
+h2 {
+  color: #C7BAB3;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.hero-imagens-container {
+  column-count: 4;
+  column-gap: 16px;
+}
+
+.hero-imagens-container > figure > img {
+  margin-top: 16px;
+  display: block;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #A45A49;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  left: 160px;
+  bottom: 31px;
+}
+
+.recipes header {
+  margin-left: 160px;
+  margin-bottom: 32px;
+}
+
+.recipes h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 2rem;
+  color: #FFF2E7;
+  margin-top: 8px 0 8px;
+}
+
+p {
+  font-size: 1.125rem;
+  color: #C7BAB3;
+}
+
+.recipe-box {
+  height: 404px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.recipe-card {
+  width: 560px;
+  height: 186px;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 32px;
+  background: #241A1C;
+}
+
+.recipe-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0;
+  margin: 0;
+}
+
+.recipe-card div > h3 {
+  font-weight: 700;
+  font-size: 1.25;
+  color: #FFF2E7;
+  margin-top: 6px;
+}
+
+header .destaque {
+  color: #E7A80E;
+}
+
+.recipe-card p {
+  margin-top: 24px;
+  font-size: 1rem;
+}
+
+.recipe-autor {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.recipe-autor span {
+  text-transform: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #C7BAB3;
+  margin: 0;
+}
+
+.icon {
+  width:24px;
+  border-radius: 50%;
+}
+
+.mais-receitas {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #C7BAB3;
+  margin: 100px auto 64px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #23181A;
+  text-align: center;
+  padding: 64px;
+  width: 100%;
+}
+
+footer p {
+  color: #FFF2E7;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+footer .autor {
+  color: #756A67;
+  margin-top: 10px;
+}
